@@ -1,4 +1,4 @@
-##📉 India Unemployment Analysis: The COVID-19 Impact Study
+📉 India Unemployment Analysis: The COVID-19 Impact Study
 📌 Project Overview
 This project provides a comprehensive data-driven exploration of how the COVID-19 pandemic reshaped the labor market in India. By analyzing datasets covering both rural and urban sectors across various states, this study identifies the exact periods of peak volatility, regional disparities, and the subsequent recovery phase.
 
@@ -12,66 +12,94 @@ Regional Volatility: Which states faced the most drastic economic shutdowns?
 Urban vs. Rural: Did the service-heavy urban areas suffer more than the agricultural-based rural regions?
 
 Labor Participation: Did workers stay in the market, or did they exit the labor force entirely?
+<!DOCTYPE html>
+<html>
+<body>
 
-🛠️ Technical Stack
-Language: Python
+  <div align="center">
+    <h1>📉 India Unemployment Analysis: The COVID-19 Impact Study</h1>
+    <p><b>A Data-Driven Exploration of Labor Market Volatility during the Global Pandemic</b></p>
+    
+    <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+    <img src="https://img.shields.io/badge/Seaborn-444876?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn">
+    <img src="https://img.shields.io/badge/CodeAlpha-Internship-orange?style=for-the-badge" alt="Internship">
+  </div>
 
-Data Manipulation: Pandas, NumPy
+  <hr>
 
-Visualization: Matplotlib, Seaborn (using custom aesthetic themes for high-impact storytelling)
+  <h2>📌 Project Overview</h2>
+  <p>
+    This project was developed during my internship at <b>CodeAlpha</b>. It focuses on the socio-economic impact of COVID-19 on India's employment landscape. By analyzing two comprehensive datasets, I tracked the transition from pre-lockdown stability to the sharp spikes of the 2020 lockdown and the subsequent "V-shaped" recovery.
+  </p>
 
-Environment: Jupyter Notebook
+  <h2>📊 Key Insights & Findings</h2>
+  <table width="100%">
+    <tr>
+      <th>Metric</th>
+      <th>Observation</th>
+    </tr>
+    <tr>
+      <td><b>Peak Unemployment</b></td>
+      <td>Reached over 60% in states like Puducherry during the lockdown phase (Apr-Jun 2020).</td>
+    </tr>
+    <tr>
+      <td><b>Urban vs. Rural</b></td>
+      <td>Urban areas faced higher average unemployment (13.17%) compared to rural areas (10.32%).</td>
+    </tr>
+    <tr>
+      <td><b>Recovery</b></td>
+      <td>A significant bounce-back was observed by late 2020, returning to near 9% levels.</td>
+    </tr>
+    <tr>
+      <td><b>Labor Participation</b></td>
+      <td>Participation rates dropped significantly in states like Tamil Nadu and UP, signaling "discouraged workers."</td>
+    </tr>
+  </table>
 
-📂 Dataset Description
-The analysis utilizes two primary datasets:
+  <h2>🛠️ Technical Stack</h2>
+  <ul>
+    <li><b>Data Wrangling:</b> Pandas & NumPy for handling whitespace, datetime conversion, and multi-dataset merging.</li>
+    <li><b>Visualization:</b> Matplotlib and Seaborn with customized high-contrast themes for clarity.</li>
+    <li><b>Analysis:</b> Quantitative trend analysis and regional comparative mapping.</li>
+  </ul>
 
-Dataset 1: Focuses on Rural and Urban breakdown across Indian states.
+  <h2>💡 Policy Recommendations</h2>
+  <blockquote>
+    Based on the data, the following interventions are suggested:
+    <ul>
+      <li><b>Urban Safety Nets:</b> Expanding schemes like MGNREGS to urban centers.</li>
+      <li><b>MSME Support:</b> Priority credit access to prevent layoffs in manufacturing.</li>
+      <li><b>Digital Upskilling:</b> Focused training in high-unemployment states (Tripura, Haryana).</li>
+    </ul>
+  </blockquote>
 
-Dataset 2: Provides a detailed timeline up to November 2020, including Labour Participation Rates (LPR).
-
-💡 Top Insights
-The Peak: National unemployment reached its zenith in April/May 2020, with some states like Puducherry crossing the 60% mark.
-
-Urban Vulnerability: Urban unemployment was consistently higher than rural, highlighting a lack of social safety nets for city-based daily wagers.
-
-V-Shaped Recovery: The data shows a sharp "V-shaped" recovery in many states by late 2020, though Labour Participation Rates remained lower than pre-pandemic levels in several regions.
-
-🚀 How to Run
-Clone this repository:
-
-Bash
+  <h2>🚀 How to Run</h2>
+  <pre><code>
+# Clone the repo
 git clone https://github.com/mirzaahsan143/CodeAlpha_UnemploymentAnalysis.git
-Install dependencies:
 
-Bash
+# Install dependencies
 pip install pandas numpy matplotlib seaborn
-Open the Jupyter Notebook:
 
-Bash
+# Run the notebook
 jupyter notebook Unemployment_Analysis.ipynb
+  </code></pre>
 
-📈 Visualizations
-The project includes several high-quality visualizations:
+  <hr>
 
-Time-Series Analysis: Trends from Jan 2020 to Nov 2020.
+  <h2>🔗 Connect with Me</h2>
+  <p>
+    I am an <b>Aspiring Data Analyst</b> passionate about turning raw data into human-centric stories.
+  </p>
+  <p align="left">
+    <a href="https://www.linkedin.com/in/mirzaahsan0712" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="mailto:mirzaahsan143786@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    </a>
+  </p>
 
-State-wise Heatmaps: Identifying geographical "Hot Zones" of unemployment.
-
-Facet Grids: Comparing Rural vs. Urban recovery cycles.
-
-📜 Policy Recommendations
-Based on the data, the project concludes with several actionable insights:
-
-Urban MGNREGS: The need for a dedicated urban employment guarantee scheme.
-
-MSME Support: Fast-tracking credit access to prevent mass layoffs in the manufacturing sector.
-
-Digital Upskilling: Targeted programs for states with persistently high structural unemployment.
-
-✍️ Author
-Mirza Muhammad Ahsan
-Aspiring Data Analyst | Certified Prompt Engineer
-
-LinkedIn: [Your LinkedIn Profile Link]
-
-Email: mirzaahsan143786@gmail.com
+</body>
+</html>
