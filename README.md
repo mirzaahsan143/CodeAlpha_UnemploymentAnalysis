@@ -1,33 +1,9 @@
-📉 India Unemployment Analysis: The COVID-19 Impact Study
-📌 Project Overview
-This project provides a comprehensive data-driven exploration of how the COVID-19 pandemic reshaped the labor market in India. By analyzing datasets covering both rural and urban sectors across various states, this study identifies the exact periods of peak volatility, regional disparities, and the subsequent recovery phase.
-
-This analysis was completed as part of an internship project at CodeAlpha.
-
-📊 Key Business Questions Addressed
-The Lockdown Shock: How significantly did the national unemployment rate spike during the strict lockdown (March–June 2020)?
-
-Regional Volatility: Which states faced the most drastic economic shutdowns?
-
-Urban vs. Rural: Did the service-heavy urban areas suffer more than the agricultural-based rural regions?
-
-Labor Participation: Did workers stay in the market, or did they exit the labor force entirely?
 <!DOCTYPE html>
 <html>
 <body>
 
   <div align="center">
     <h1>📉 India Unemployment Analysis: The COVID-19 Impact Study</h1>
-    <p><b>A Data-Driven Exploration of Labor Market Volatility during the Global Pandemic</b></p>
-    
-    <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python">
-    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-    <img src="https://img.shields.io/badge/Seaborn-444876?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn">
-    <img src="https://img.shields.io/badge/CodeAlpha-Internship-orange?style=for-the-badge" alt="Internship">
-  </div>
-
-  <hr>
-
   <h2>📌 Project Overview</h2>
   <p>
     This project was developed during my internship at <b>CodeAlpha</b>. It focuses on the socio-economic impact of COVID-19 on India's employment landscape. By analyzing two comprehensive datasets, I tracked the transition from pre-lockdown stability to the sharp spikes of the 2020 lockdown and the subsequent "V-shaped" recovery.
